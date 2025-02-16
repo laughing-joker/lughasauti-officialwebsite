@@ -28,7 +28,7 @@ const FullScreenCard = () => {
         {/* Enhanced glassmorphism effect */}
         <div className="w-full h-screen bg-white/10 backdrop-blur-xl border border-white/20 rounded-xl shadow-2xl p-10 text-center">
           <h1 className="text-5xl font-extrabold text-yellow-300 mb-10 tracking-wider drop-shadow-lg">
-            Matoleo ya LughaSauti
+            Matoleo ya LughaSautisdsds
           </h1>
 
           {/* Flexbox layout for buttons */}

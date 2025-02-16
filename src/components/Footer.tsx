@@ -25,7 +25,7 @@ const Footer = () => {
                 href="mailto:lughatausi@gmail.com"
                 className="hover:text-[#FFD700]"
               >
-                lughatausi@gmail.com
+                lughasauti@gmail.com
               </a>
             </p>
             <p className="transition-colors duration-300">

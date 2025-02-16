@@ -2,7 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const VERSION_2_0_1 = "https://lugha-tausi.vercel.app/LughaTausiv2.0.1.zip";
+const VERSION_2_0_1 = "https://lughasauti.vercel.app/LughaSautiV2.0.1.zip";
 
 const DownloadCard = () => {
   const downloadFileAtURL = (url: string) => {
@@ -24,12 +24,12 @@ const DownloadCard = () => {
       >
         {/* Title with Flexible Alignment */}
         <motion.h2
-          className="font-bold text-4xl text-purple-300 drop-shadow-lg text-center"
+          className="font-bold text-4xl text-yellow-300 drop-shadow-lg text-center"
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1.0 }}
         >
-          Pakua LughaTausi
+          Pakua LughaSauti
         </motion.h2>
 
         {/* Description with Flexible Alignment */}
@@ -40,7 +40,7 @@ const DownloadCard = () => {
           transition={{ duration: 0.8 }}
         >
           Pakua{" "}
-          <span className="text-purple-400 font-semibold">LughaTausi</span> na
+          <span className="text-yellow-400 font-semibold">LughaSauti</span> na
           pokea muundo rahisi kutumika ukiwa na vipengele vyenye nguvu
           vinavyofanya maendeleo kuwa rahisi, na kukusaidia kuzingatia kile
           kinachohitajika zaidi.
@@ -50,7 +50,7 @@ const DownloadCard = () => {
         <motion.div className="flex justify-center">
           <motion.button
             onClick={() => downloadFileAtURL(VERSION_2_0_1)}
-            className="bg-gradient-to-r from-purple-600 via-blue-500 to-purple-600 text-white font-semibold py-3 px-8 rounded-full shadow-lg transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-none hover:opacity-80"
+            className="bg-gradient-to-r from-yellow-500 via-amber-600 to-yellow-700 text-white font-semibold py-3 px-8 rounded-full shadow-lg transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-none hover:opacity-80"
           >
             Pakua Sasa
           </motion.button>

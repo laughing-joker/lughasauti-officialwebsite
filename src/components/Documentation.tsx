@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const LTMANUAL = "https://lugha-tausi.vercel.app/Mwongozo.pdf";
+const LTMANUAL = "https://lughasauti.vercel.app/Mwongozo.pdf";
 
 const Doc1 = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -16,17 +16,17 @@ const Doc1 = () => {
   };
 
   return (
-    <div className="w-full min-h-screen rounded-xl bg-gradient-to-b from-purple-700 to-blue-700 flex items-center justify-center p-4">
-      <div className="w-full max-w-3xl my-8 p-8 md:p-12 lg:p-32 bg-gray-900 shadow-2xl rounded-3xl border border-purple-500 relative">
+    <div className="w-full min-h-screen rounded-xl bg-gradient-to-b from-amber-500 to-gold-500 flex items-center justify-center p-4">
+      <div className="w-full max-w-3xl my-8 p-8 md:p-12 lg:p-32 bg-gray-900 shadow-2xl rounded-3xl border border-yellow-500 relative">
         {/* Animated Glow Effects */}
-        <div className="absolute -top-6 -right-6 w-16 h-16 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full opacity-50 blur-lg"></div>
-        <div className="absolute -bottom-6 -left-6 w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full opacity-50 blur-lg"></div>
+        <div className="absolute -top-6 -right-6 w-16 h-16 bg-gradient-to-r from-yellow-500 to-amber-500 rounded-full opacity-50 blur-lg"></div>
+        <div className="absolute -bottom-6 -left-6 w-16 h-16 bg-gradient-to-r from-amber-500 to-yellow-500 rounded-full opacity-50 blur-lg"></div>
 
         {/* Main Content */}
         <div className="p-4 text-center text-white">
-          <h1 className="text-3xl md:text-4xl font-bold mb-3">Lugha Tausi</h1>
+          <h1 className="text-3xl md:text-4xl font-bold mb-3">Lugha Sauti</h1>
           <p className="text-base md:text-lg text-gray-300 mb-3">
-            Hati ya kina kuhusu Lugha Tausi
+            Hati ya kina kuhusu Lugha Sauti
           </p>
 
           {/* Features Section */}
@@ -49,31 +49,31 @@ const Doc1 = () => {
           <p className="text-gray-300 text-sm md:text-base">
             Inakuja hivi karibuni
           </p>
-          <pre className="bg-gray-800 p-3 rounded-md text-purple-300 text-sm md:text-base mb-4 overflow-x-auto">
-            <code># install lughatausi</code>
+          <pre className="bg-gray-800 p-3 rounded-md text-yellow-300 text-sm md:text-base mb-4 overflow-x-auto">
+            <code># install lughasauti</code>
           </pre>
 
           {/* Code Example */}
           <h2 className="text-xl md:text-2xl font-semibold mb-2">
             Mfano wa Matumizi
           </h2>
-          <pre className="bg-gray-800 p-3 rounded-md text-purple-300 text-sm md:text-base mb-4 overflow-x-auto">
+          <pre className="bg-gray-800 p-3 rounded-md text-yellow-300 text-sm md:text-base mb-4 overflow-x-auto">
             <code>{`// Programu rahisi ya Hello World\njumbe("Habari, Ulimwengu!")`}</code>
           </pre>
-          <pre className="bg-gray-800 p-3 rounded-md text-purple-300 text-sm md:text-base mb-4 overflow-x-auto">
+          <pre className="bg-gray-800 p-3 rounded-md text-yellow-300 text-sm md:text-base mb-4 overflow-x-auto">
             <code>{`// Simple Hello World program\njumbe("Hello, World!")`}</code>
           </pre>
 
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row justify-center mt-4 space-y-3 sm:space-y-0 sm:space-x-3">
             <button
-              className="text-white bg-gradient-to-r from-purple-600 via-blue-500 to-purple-600 text-sm md:text-lg font-semibold transition-all duration-500 ease-in-out border border-purple-400 rounded-full py-2 px-6 shadow-md hover:scale-105"
+              className="text-white bg-gradient-to-r from-yellow-600 via-amber-500 to-yellow-600 text-sm md:text-lg font-semibold transition-all duration-500 ease-in-out border border-yellow-400 rounded-full py-2 px-6 shadow-md hover:scale-105"
               onClick={() => setIsModalOpen(true)}
             >
               Onyesha Hati
             </button>
             <button
-              className="text-white bg-gradient-to-r from-purple-600 via-blue-500 to-purple-600 text-sm md:text-lg font-semibold transition-all duration-500 ease-in-out border border-purple-400 rounded-full py-2 px-6 shadow-md hover:scale-105"
+              className="text-white bg-gradient-to-r from-yellow-600 via-amber-500 to-yellow-600 text-sm md:text-lg font-semibold transition-all duration-500 ease-in-out border border-yellow-400 rounded-full py-2 px-6 shadow-md hover:scale-105"
               onClick={() => downloadFileAtURL(LTMANUAL)}
             >
               Pakua Hati
